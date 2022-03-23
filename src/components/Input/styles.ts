@@ -21,7 +21,7 @@ export const IconContainer = styled.View<Props>`
   
   ${({ isFocused }) => isFocused && css`
     border-bottom-width: 2px;
-    border-bottom-color: #DC1637;   
+    border-bottom-color: #2FB86F;   
   `};
 `;
 
@@ -34,6 +34,6 @@ export const InputText = styled(TextInput) <Props>`
 
   ${({ isFocused }) => isFocused && css`
     border-bottom-width: 2px;
-    border-bottom-color: #DC1637;    
+    border-bottom-color: #2FB86F;    
   `};
 `;
